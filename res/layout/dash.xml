@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <RelativeLayout
+            android:id="@+id/topbar"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="36px"
+            android:background="#3C98A7"
+            android:layout_gravity="center"
+            >
+        <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/bars"
+                android:background="@null"
+                android:layout_centerVertical="true"/>
+        <ImageView
+                android:id="@+id/busView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/busbig"
+                android:background="#3C98A7"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView" android:layout_gravity="center"/>
+
+</LinearLayout>
+
