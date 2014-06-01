@@ -17,5 +17,7 @@
                   android:theme="@style/AppStyle"/>
         <activity android:name=".ActivityMail"
                   android:theme="@style/AppStyle"/>
+        <activity android:name=".ActivityFinish"
+                  android:theme="@style/AppStyle"/>
     </application>
 </manifest>

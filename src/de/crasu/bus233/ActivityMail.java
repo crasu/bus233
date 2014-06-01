@@ -19,4 +19,11 @@ public class ActivityMail extends Activity {
         intent.addCategory(Intent.CATEGORY_HOME);
         startActivity(intent);
     }
+
+    public void clickSend(View view) {
+        Log.i("ActivityDash", "Abort");
+        Intent intent = new Intent(this, ActivityFinish.class);
+        intent.putExtra("finishText", "Registierungsmail wurde verschickt.");
+        startActivity(intent);
+    }
 }

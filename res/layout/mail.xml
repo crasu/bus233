@@ -6,7 +6,7 @@
         >
 
 
-    <!--<include layout="@layout/topbar"/>-->
+    <include layout="@layout/topbar"/>
 
     <TextView
             android:layout_width="fill_parent"
@@ -56,7 +56,8 @@
         <Button
             style="@style/ButtonStyle"
             android:text="Senden"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="bottom"
+            android:onClick="clickSend"/>
         <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
