@@ -6,7 +6,7 @@
         >
 
 
-    <!--<include layout="@layout/topbar"/>-->
+    <include layout="@layout/topbar"/>
 
     <TextView
             android:id="@+id/finishTextView"
