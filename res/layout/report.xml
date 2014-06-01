@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+
+    <include layout="@layout/topbar"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bei mehr als 20\u00A0min Verspätung eine Gutschrift erhalten."
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Abbrechen"
+            android:layout_gravity="bottom"
+            android:onClick="clickAbort"/>
+        <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Melden"
+            android:layout_gravity="bottom"
+            android:onClick="clickReport"/>
+        <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+
