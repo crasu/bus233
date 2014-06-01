@@ -4,8 +4,7 @@ Start server:
 
 Testing:
 
-    curl http://localhost:8080/power
-    curl http://localhost:8080/cron
+    curl -i -H "Accept: application/json" -X POST -d '{ "email": "crasu@crasu.de" }' http://localhost:8080/signup
 
 Deploy:
 

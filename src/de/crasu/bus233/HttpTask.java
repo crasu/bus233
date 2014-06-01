@@ -20,7 +20,7 @@ import java.util.List;
 public class HttpTask  extends AsyncTask<String, Boolean, String> {
     public void postData(String emailAddress) throws JSONException {
         HttpClient httpclient = new DefaultHttpClient();
-        HttpPost httppost = new HttpPost("http://192.168.100.37:8080/signup");
+        HttpPost httppost = new HttpPost("http://bus-233.appspot.com/signup");
         try {
             JSONObject email = new JSONObject().put("email", emailAddress);
             httppost.setEntity(new StringEntity(email.toString()));

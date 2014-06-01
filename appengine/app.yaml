@@ -1,4 +1,4 @@
-application: bus233 
+application: bus-233 
 version: 1
 runtime: python27
 api_version: 1
@@ -6,4 +6,4 @@ threadsafe: true
 
 handlers:
 - url: /signup
-  script: bus233.application
+  script: bus-233.application
